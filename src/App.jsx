@@ -1,22 +1,20 @@
-/*
-
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-
-*/
+import { ProfileCard } from "./components/ProfileCard";
+import VictorPhoto from "./assets/image-victor.jpg";
 
 const App = () => {
-    return <h1 className="text-red-600">App</h1>;
+    return (
+        <ProfileCard
+            srcImg={VictorPhoto}
+            name="Victor Crest"
+            age={26}
+            location="London"
+            socialStats={{
+                followers: "80",
+                likes: "803",
+                photos: "1.4",
+            }}
+        />
+    );
 };
 
 export default App;
