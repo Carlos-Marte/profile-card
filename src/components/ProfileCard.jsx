@@ -17,6 +17,8 @@ export const ProfileCard = ({ srcImg, name, age, location, socialStats }) => {
             </div>
 
             <div>SEPARATOR</div>
+
+            <SocialStats socialStats={socialStats} />
         </section>
     );
 };
