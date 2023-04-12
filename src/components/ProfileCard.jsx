@@ -3,7 +3,7 @@ import bgImage from "../assets/bg-pattern-card.svg";
 
 export const ProfileCard = ({ srcImg, name, age, location, socialStats }) => {
     return (
-        <section className="w-full max-w-[350px] min-w-[250px] bg-white rounded-xl flex flex-col gap-4 items-center text-center overflow-hidden">
+        <section className="w-full max-w-[350px] min-w-[250px] bg-white rounded-xl flex flex-col gap-4 items-center text-center overflow-hidden relative z-50">
             <div>
                 <img src={bgImage} alt="Background pattern" loading="lazy" />
             </div>
