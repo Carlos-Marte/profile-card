@@ -6,6 +6,8 @@ export default {
             "kumbh-sans": ["Kumbh Sans", "sans-serif"],
         },
         colors: {
+            transparent: "transparent",
+            white: "#ffffff",
             "dark-cyan": "hsl(185, 75%, 39%)",
             "very-dark-d-blue": "hsl(229, 23%, 23%)",
             "dark-grayish-blue": "hsl(227, 10%, 46%)",
