@@ -16,9 +16,9 @@ export const ProfileCard = ({ srcImg, name, age, location, socialStats }) => {
                 <div className="flex flex-col justify-end gap-1 pt-9">
                     <div className="flex gap-2">
                         <h1 className="font-bold">{name}</h1>
-                        <span className="text-dark-gray">{age}</span>
+                        <span className="text-dark-grayish-blue">{age}</span>
                     </div>
-                    <p className="text-sm text-dark-gray">{location}</p>
+                    <p className="text-dark-grayish-blue">{location}</p>
                 </div>
             </div>
 
