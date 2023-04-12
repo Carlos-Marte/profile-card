@@ -8,7 +8,7 @@ export const SocialStats = ({ socialStats }) => {
                 [`${likes}`, "Likes"],
                 [`${photos}`, "Photos"],
             ].map(([stat, title]) => (
-                <div>
+                <div key={title}>
                     <h2 className="text-l font-bold">{stat}k</h2>
                     <p className="text-xs leading-5 tracking-widest text-dark-gray">
                         {title}
